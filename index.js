@@ -133,10 +133,10 @@ Car.prototype.drive = function (distance)
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. If 'this' is used in a global sense (outside of any function) it will refer to the overall window object
+    2. If 'this' is used in a function call, it will be the associated object, the one left of the dot
+    3. If this is used inside a constructor, it refers to the created object
+    4. using call or apply, this is explicitly defined in the invocation of the call/apply ie in the parenthesis
   */
   
   
